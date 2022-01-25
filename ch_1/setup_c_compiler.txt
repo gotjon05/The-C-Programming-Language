@@ -1,0 +1,18 @@
+Setting up C Compiler for Visual Studio Code on Windows
+
+1. download https://www.msys2.org/
+2. Skip the update files steps to avoid error "cannot execute 'cc1': CreateProcess:"
+3. after installing, open msys2 MINGW64 Bit
+4. install:
+    pacman -S mingw-w64-x86_64-toolchain
+5. add system path and test if it works in terminal 
+
+
+
+Other promising way: https://github.com/danielpinto8zz6/c-cpp-compile-run/blob/HEAD/docs/COMPILER_SETUP.md#Windows
+
+
+
+
+
+ctrl + z, after running to see output in visual studio code 
